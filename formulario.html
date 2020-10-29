@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<form method="post" action="recibeDatos.php">
+		Nombre: <input type="text" name="nombre"></br>
+		Apellido: <input type="text" name="apellidos"></br>
+		Edad: <input type="number" name="edad"></br>
+		Sexo: </br>
+		<input type="radio" name="sexo" value="Mujer"> Mujer</br>
+		<input type="radio" name="sexo" value="Hombre"> Hombre</br>
+		Nivel de estudios: 
+		<select name="gEstudios">
+ 			<option>primaria</option>
+ 			<option>secundaria</option>
+ 			<option>bachillerato</option>
+ 			<option>licenciatura</option>
+ 			<option>posgrado</option>
+		</select></br>
+		Usuario: <input type="text" name="usuario"></br>
+		Contraseña: <input type="password" name="contrasena"></br>
+		Confirmacion de contraseña: <input type="password" name="confirma"></br>
+		<input type="submit" value="enviar">
+	</form>
+</body>
+</html>
+
